@@ -23,6 +23,7 @@ echo `pwd`
 #cat ./R/*>R2.fastq
 echo "Assembly path"
 echo "$PATHDATA/assembly/prog1/V.dahliae/$ASSEMBLY" 
-#SPAdes_assemble_part1.sh ./F/R1.fastq ./R/R2.fastq $PATHDATA/assembly/prog1/V.dahliae/$ASSEMBLY/
+
+SPAdes_assemble_part1.sh R1.fastq R2.fastq $PATHDATA/assembly/prog1/V.dahliae/$ASSEMBLY/
 
 done;
