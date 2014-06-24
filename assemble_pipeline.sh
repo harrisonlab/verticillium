@@ -6,9 +6,9 @@ PATHDATA=$2
 
 
 echo "Assembling wilt genome from the $GENOMES file"
-cd $PATHDATA
 
 for ASSEMBLY in $LIST; do
+cd $PATHDATA
 echo "Assembling $ASSEMBLY "
 
 echo "Working directory" 
@@ -21,6 +21,7 @@ echo "Raw Data Subdirectory"
 echo `pwd`
 cat ./F/*>R1.fastq
 cat ./R/*>R2.fastq
+cd ..
 
 #SPAdes_assemble_part1.sh ./F/R1.fastq ./R/R2.fastq ./assembly/prog1/V.dahliae/$ASSEMBLY/
 
