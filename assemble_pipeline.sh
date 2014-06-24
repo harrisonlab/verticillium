@@ -13,7 +13,7 @@ echo "Assembling $ASSEMBLY "
 
 echo "Working directory" 
 echo $PATHDATA
-cd ./raw_dna/paired/V.dahliae/
+cd raw_dna/paired/V.dahliae/
 echo "Subdirectory"
 echo `pwd`
 cd $ASSEMBLY
