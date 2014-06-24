@@ -14,6 +14,7 @@ echo "Assembling $ASSEMBLY "
 echo "Working directory" 
 echo $PATHDATA
 cd ./assembly/prog1/V.dahliae/
+echo "Subdirectory"
 echo `pwd`
 #cd $ASSEMBLY
 #cat ./F/*.fastq>R1.fastq
