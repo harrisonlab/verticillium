@@ -19,11 +19,10 @@ echo `pwd`
 cd $ASSEMBLY
 echo "Raw Data Subdirectory"
 echo `pwd`
-cat ./F/*>R1.fastq
-cat ./R/*>R2.fastq
-cd ..
-
-#SPAdes_assemble_part1.sh ./F/R1.fastq ./R/R2.fastq ./assembly/prog1/V.dahliae/$ASSEMBLY/
-
+#cat ./F/*>R1.fastq
+#cat ./R/*>R2.fastq
+echo "Assembly path"
+echo "$PATHDATA/assembly/prog1/V.dahliae/$ASSEMBLY" 
+#SPAdes_assemble_part1.sh ./F/R1.fastq ./R/R2.fastq $PATHDATA/assembly/prog1/V.dahliae/$ASSEMBLY/
 
 done;
