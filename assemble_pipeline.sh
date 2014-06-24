@@ -13,12 +13,14 @@ echo "Assembling $ASSEMBLY "
 
 echo "Working directory" 
 echo $PATHDATA
-cd ./assembly/prog1/V.dahliae/
+cd ./raw_dna/paired/V.dahliae/
 echo "Subdirectory"
 echo `pwd`
-#cd $ASSEMBLY
-#cat ./F/*.fastq>R1.fastq
-#cat ./R/*.fastq>R2.fastq
+cd $ASSEMBLY
+echo "Raw Data Subdirectory"
+echo `pwd`
+cat ./F/*.fastq>R1.fastq
+cat ./R/*.fastq>R2.fastq
 
 #SPAdes_assemble_part1.sh ./F/R1.fastq ./R/R2.fastq ./assembly/prog1/V.dahliae/$ASSEMBLY/
 
