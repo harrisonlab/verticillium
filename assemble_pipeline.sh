@@ -13,7 +13,8 @@ echo "Assembling $ASSEMBLY "
 
 echo "Working directory" 
 echo $PATHDATA
-
+cd ./assembly/prog1/V.dahliae/
+echo `pwd`
 #cd $ASSEMBLY
 #cat ./F/*.fastq>R1.fastq
 #cat ./R/*.fastq>R2.fastq
